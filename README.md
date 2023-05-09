@@ -1,32 +1,22 @@
-# template
+# her2-cish
 
 
 
-**template for pathology atlas repositories**
-
-
-
-
-> see [make-html-WSI](https://github.com/pathologyatlas/make-html-WSI) for more information and [TODO](https://github.com/pathologyatlas/TODO) to add cases
-
-
-
-
-> do not forget to activate github pages for the new repository
+**her2-cish for pathology atlas repositories**
 
 
 
 
 ```zsh
 
-vips dzsave HE.svs HE
+vips dzsave cish.svs cish
 
 ```
 
 
 
 
-```{r language template, echo=FALSE, include=TRUE}
+```{r language her2-cish, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
 
@@ -37,7 +27,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## TemplateTR
+## Chromogenic in situ hybridization (CISH)
 
 ```
 
@@ -46,7 +36,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## TemplateEN
+## Chromogenic in situ hybridization (CISH)
 
 ```
 
@@ -55,28 +45,28 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-**templateTR**
+**Chromogenic in situ hybridization (CISH)**
 
 
-[https://images.patolojiatlasi.com/template/HE.html](https://images.patolojiatlasi.com/template/HE.html)
+[https://images.patolojiatlasi.com/her2-cish/cish.html](https://images.patolojiatlasi.com/her2-cish/cish.html)
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/her2-cish/cish.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
 ```{comment} 
 asis, echo = (language == "TR")
 
-**templateTR**
+**Chromogenic in situ hybridization (CISH)**
 
 
-[https://images.patolojiatlasi.com/template/HE_annotated.html](https://images.patolojiatlasi.com/template/HE_annotated.html)
+[https://images.patolojiatlasi.com/her2-cish/cish_annotated.html](https://images.patolojiatlasi.com/her2-cish/cish_annotated.html)
 
 İşaretlenmiş mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/template/HE_annotated.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/her2-cish/cish_annotated.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -87,20 +77,20 @@ asis, echo = (language == "TR")
 
 
 
-<button id="tani-case-template-btn">Tanıyı Göster</button>
-<div id="answer-template" style="display: none;">templateTR</div>
+<button id="tani-case-her2-cish-btn">Tanıyı Göster</button>
+<div id="answer-her2-cish" style="display: none;">Chromogenic in situ hybridization (CISH)</div>
 
 <script>
-  const showAnswer-templateBtn = document.getElementById('tani-case-template-btn');
-  const answer-template = document.getElementById('answer-template');
+  const showAnswer-her2-cishBtn = document.getElementById('tani-case-her2-cish-btn');
+  const answer-her2-cish = document.getElementById('answer-her2-cish');
 
-  showAnswer-templateBtn.addEventListener('click', () => {
-    if (answer-template.style.display === 'none') {
-      answer-template.style.display = 'block';
-      showAnswer-templateBtn.textContent = 'Tanıyı Gizle';
+  showAnswer-her2-cishBtn.addEventListener('click', () => {
+    if (answer-her2-cish.style.display === 'none') {
+      answer-her2-cish.style.display = 'block';
+      showAnswer-her2-cishBtn.textContent = 'Tanıyı Gizle';
     } else {
-      answer-template.style.display = 'none';
-      showAnswer-templateBtn.textContent = 'Tanıyı Göster';
+      answer-her2-cish.style.display = 'none';
+      showAnswer-her2-cishBtn.textContent = 'Tanıyı Göster';
     }
   });
 </script>
@@ -117,14 +107,14 @@ asis, echo = (language == "TR")
 
 ```{asis, echo = (language == "EN")}
 
-**templateEN**
+**Chromogenic in situ hybridization (CISH)**
 
 
-[https://images.patolojiatlasi.com/template/HE.html](https://images.patolojiatlasi.com/template/HE.html)
+[https://images.patolojiatlasi.com/her2-cish/cish.html](https://images.patolojiatlasi.com/her2-cish/cish.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/her2-cish/cish.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -132,14 +122,14 @@ See Microscopy with viewer:
 ```{comment}
 asis, echo = (language == "EN")
 
-**templateEN**
+**Chromogenic in situ hybridization (CISH)**
 
 
-[https://images.patolojiatlasi.com/template/HE_annotated.html](https://images.patolojiatlasi.com/template/HE_annotated.html)
+[https://images.patolojiatlasi.com/her2-cish/cish_annotated.html](https://images.patolojiatlasi.com/her2-cish/cish_annotated.html)
 
 See Annotated Microscopy with viewer: 
 
-<iframe src="https://images.patolojiatlasi.com/template/HE_annotated.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/her2-cish/cish_annotated.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 
 
@@ -148,20 +138,20 @@ See Annotated Microscopy with viewer:
 ```{comment}
 asis, echo = (language == "EN")
 
-<button id="dx-case-template-btn">Show the Diagnosis</button>
-<div id="answer-template" style="display: none;">templateEN</div>
+<button id="dx-case-her2-cish-btn">Show the Diagnosis</button>
+<div id="answer-her2-cish" style="display: none;">Chromogenic in situ hybridization (CISH)</div>
 
 <script>
-  const showAnswer-templateBtn = document.getElementById('dx-case-template-btn');
-  const answer-template = document.getElementById('answer-template');
+  const showAnswer-her2-cishBtn = document.getElementById('dx-case-her2-cish-btn');
+  const answer-her2-cish = document.getElementById('answer-her2-cish');
 
-  showAnswer-templateBtn.addEventListener('click', () => {
-    if (answer-template.style.display === 'none') {
-      answer-template.style.display = 'block';
-      showAnswer-templateBtn.textContent = 'Hide the Diagnosis';
+  showAnswer-her2-cishBtn.addEventListener('click', () => {
+    if (answer-her2-cish.style.display === 'none') {
+      answer-her2-cish.style.display = 'block';
+      showAnswer-her2-cishBtn.textContent = 'Hide the Diagnosis';
     } else {
-      answer-template.style.display = 'none';
-      showAnswer-templateBtn.textContent = 'Show the Diagnosis';
+      answer-her2-cish.style.display = 'none';
+      showAnswer-her2-cishBtn.textContent = 'Show the Diagnosis';
     }
   });
 </script>
