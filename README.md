@@ -1,18 +1,7 @@
 # her2-cish
 
 
-
 **her2-cish for pathology atlas repositories**
-
-
-
-
-```zsh
-
-vips dzsave cish.svs cish
-
-```
-
 
 
 
